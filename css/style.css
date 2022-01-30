@@ -107,13 +107,34 @@ h1 {
     margin-left: 10px;
 }
 
-ul {
-    width: 500px;
+.container-list {
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
     margin: 30px auto;
 }
 
-li {
+.list {
+    width: 350px;
+    min-height: 300px;
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.list-done {
+    width: 350px;
+    min-height: 300px;
+    /* text-decoration: line-through; */
+    color: green;
+}
+
+h2 {
+    font-size: 18px;
+    font-style: italic;
     margin-bottom: 20px;
+}
+
+li {
+    padding: 10px 0;
 }
 
 
